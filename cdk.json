@@ -1,0 +1,20 @@
+
+
+{
+  "app": "python app.py",
+  "context": {
+    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": True,
+    "@aws-cdk/core:enableStackNameDuplicates": "True",
+    "aws-cdk:enableDiffNoFail": "True",
+    "@aws-cdk/core:stackRelativeExports": "True",
+    "@aws-cdk/aws-ecr-assets:dockerIgnoreSupport": True,
+    "@aws-cdk/aws-secretsmanager:parseOwnedSecretName": True,
+    "@aws-cdk/aws-kms:defaultKeyPolicies": True,
+    "@aws-cdk/aws-s3:grantWriteWithoutAcl": True,
+    "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": True,
+    "@aws-cdk/aws-rds:lowercaseDbIdentifier": True,
+    "@aws-cdk/aws-efs:defaultEncryptionAtRest": True,
+    "@aws-cdk/aws-lambda:recognizeVersionProps": True,
+    "@aws-cdk/aws-cloudfront:defaultSecurityPolicyTLSv1.2_2021": True
+  }
+}
