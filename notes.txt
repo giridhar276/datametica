@@ -188,6 +188,178 @@ library | package | module |
 Every library contains set of methods.
 
 
+exception handling
+-------------------
+
+
+try
+except
+else
+finally
+raise
+
+
+
+
+
+
+
+library | package | module |
+---------------------------
+Every library contains set of methods.
+
+
+- builtin libraries    ( 8000+ libraries are installed with Anaconda)
+---------------------
+all the builtin libraries are installed with python setup which are generally used(system operations,
+file handling operations, mail alerts , ftp operations, maths operations, OS level operations ...) by everyone
+
+- third party libraries
+------------------------
+Depending on the requirement( cloud operations, excel , ML , data analtyics , image processing ,database ,testing) developer has to install the third party library from 
+
+www.pypi.org ( doing manually)
+using pip tool
+using conda tool
+using easy_install tool
+
+
+
+builtin libraries which are generally used
+----------------------------------------
+sys           : system python config information
+urllib.request: working with http
+math          : mathematical operations
+random        : random numbers
+calendar
+smtplib       : sending mails
+ftplib        : ftp'ng the file
+telnetlib     :
+logging       : logging all the events
+shutil        : copy,move,rmtree ....
+filecmp       : comparing directories
+zipfile       : create/extract the zip files
+rarfile       : create/extract the tar files
+tarfile       : create/extract the tarfiles
+getpass       : shadowing the password
+json          : reading/writing json files
+csv           : reading/writing csv files
+xml        
+sysconfig     : system configuration
+collections   : working with dictionaries
+argparse      : passing args from command line
+optparse      : passing args from command line
+time          : working with date and time
+datetime      : working with date and time
+cryptography  : encrypting and decrypting the passwords
+heapq         : performing array operations
+gzip          : reading gunzip files
+re            : validating the strings
+ipadresss     : validting ip address
+platform      : display platform information
+pathlib       : creating temp files
+threading     : for performing multi threading
+multiprocessing:
+subprocess    : invoking the system commands ( linux or dos commands)
+
+
+
+frequently used third party libraries
+---------------------------------------
+database related
+----------------
+pymysql   :
+cx_Oracle
+pymongo
+pymssql
+
+web frameworks ( developing web applications)
+--------------
+django
+flask
+bottom
+
+analytics/machine learning
+---------------------------
+numpy
+scipy
+pandas
+seaborn
+plotly
+ggplot
+matplotlib   : visualizing data .. bar graph.. pie graph
+scikit-learn :  machine learning algorithms
+
+image processing
+---------------
+pillow
+opencv
+pytorch
+
+
+APIs ( REST API)
+-----
+requests
+
+excel programming
+------------------
+openpyxl    : reading/write excel files
+xlsxwriter  : writing to excel file
+python-docx : working with ms-word
+
+networking
+-----------
+paramiko   :  interacting with remote servers
+netmiko    :  connecting to router/switch
+pyping     :  ping any host or ip address
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
