@@ -216,7 +216,7 @@ file handling operations, mail alerts , ftp operations, maths operations, OS lev
 
 - third party libraries
 ------------------------
-Depending on the requirement( cloud operations, excel , ML , data analtyics , image processing ,database ,testing) developer has to install the third party library from 
+Depending on the requirement( cloud operations, excel , ML , data analytics , image processing ,database ,testing) developer has to install the third party library from 
 
 www.pypi.org ( doing manually)
 using pip tool
@@ -306,6 +306,7 @@ excel programming
 openpyxl    : reading/write excel files
 xlsxwriter  : writing to excel file
 python-docx : working with ms-word
+pandas
 
 networking
 -----------
@@ -326,9 +327,25 @@ pyping     :  ping any host or ip address
 
 
 
+steps for installing manually
+------------------------------
+
+method 1:
+browse for the required library as per your requirement
+open pypi.org and search for the library
+Click on 'Download Files' and download the tar.gz 
+navigate to the downloaded path and execute the below command 
+Eg: pip install PyMySQL-1.0.2.tar.gz
 
 
 
+browse for the required library as per your requirement
+open pypi.org and search for the library
+Click on 'Download Files' and download the tar.gz 
+navigate to the downloaded path and extract the file
+and execute the below command
+
+python setup.py install
 
 
 
